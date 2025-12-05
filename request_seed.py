@@ -39,7 +39,8 @@ def request_seed(student_id, github_repo_url, api_url):
 # >>>>>> UPDATE THESE <<<<<<
 # ------------------------------
 student_id = "23A91A0510"
-github_url = "https://github.com/madhuri20062408/Madhuri-23A91A0510.git"
+github_url = "https://github.com/madhuri20062408/docker-23A91A0510.git"
 api_url = "https://eajeyq4r3zljoq4rpovy2nthda0vtjqf.lambda-url.ap-south-1.on.aws"
 
 request_seed(student_id, github_url, api_url)
+
