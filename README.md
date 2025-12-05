@@ -9,17 +9,24 @@ Persistent Storage: Docker volumes for data persistence across restarts
 Cron Integration: Automated 2FA code logging every minute
 Multi-Stage Docker Build: Optimized container image with minimal size
 Setup
+
 Clone the repository
+
 Generate RSA keys: python generate_keys.py
+
 Request encrypted seed from instructor API
+
 Build and run: docker-compose up --build
+
 API Endpoints
 POST /decrypt-seed - Decrypt encrypted seed
 GET /generate-2fa - Generate current 2FA code
 POST /verify-2fa - Verify 2FA code
+
 Technologies
 FastAPI (Python Web Framework)
 Cryptography (RSA/OAEP)
 PyOTP (TOTP)
 Docker & Docker Compose
 Cron (scheduled tasks)
+
